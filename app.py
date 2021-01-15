@@ -48,7 +48,3 @@ def send_file():
 def process_image():
     artist = request.form['artist']
     return analyze_image.facesearch(session["filepath"], request.form['artist'])
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
