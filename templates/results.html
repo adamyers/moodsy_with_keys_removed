@@ -1,0 +1,33 @@
+{% extends 'base.html' %} {% block table %}
+<script src="../static/table.js"></script>
+{% endblock %} {% block content %}
+<h1>Results</h1>
+<p hidden id="input_data">{{ value }}</p>
+<table>
+  <th><p>Song</p></th>
+  <th><p>Artist</p></th>
+  <th><p>Link</p></th>
+  <tr>
+    <td id="song1"><p></p></td>
+    <td id="song2"><p></p></td>
+    <td id="song3"><p></p></td>
+  </tr>
+  <tr>
+    <td id="artist1"></td>
+    <td id="artist2"></td>
+    <td id="artist3"></td>
+  </tr>
+  <tr>
+    <td id="link1"></td>
+    <td id="link2"></td>
+    <td id="link3"></td>
+  </tr>
+</table>
+
+<div id="homebutton">
+  <button class="displaybutton">
+    <a href="http://localhost:5000">go home</a>
+  </button>
+</div>
+
+{% endblock %}

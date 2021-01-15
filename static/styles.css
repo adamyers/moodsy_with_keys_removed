@@ -1,0 +1,117 @@
+/* main css file */
+h1 {
+  text-align: center;
+  font-size: 80px;
+  color: #1db954;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+text {
+  margin-top: 20px;
+}
+
+p {
+  color: #1db954;
+}
+
+td {
+  color: #1db954;
+  padding: 20px;
+}
+
+table {
+  background-color: rgb(46, 45, 45);
+  margin: auto;
+  text-align: left;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+th {
+  text-align: center;
+}
+
+.button-ctr {
+  margin: auto;
+  text-align: center;
+}
+
+.displaybutton {
+  color: black;
+  background-color: #1db954;
+  border: 3px solid #1db954;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 55px;
+  font-size: 20px;
+  padding: 20px;
+  width: 300px;
+  margin: 15px, 20px;
+  font-family: "Lato";
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ecebe8 !important;
+  text-transform: uppercase;
+}
+
+#homebutton {
+  margin: auto;
+  text-align: center;
+  color: #ecebe8;
+}
+
+.displaybutton2 {
+  color: black;
+  background-color: #1db954;
+  border: 3px solid #1db954;
+  border-radius: 50px;
+  font-size: 10px;
+  padding: 20px;
+  font-family: "Lato";
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ecebe8;
+  text-transform: uppercase;
+  height: 30px;
+  width: 70px;
+}
+
+body {
+  background-color: black;
+  font-family: "Lato";
+  margin: auto;
+}
+
+.droparea {
+  width: 300px;
+  height: 300px;
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 1px;
+  border-color: black;
+  margin: auto;
+  margin-top: 0px;
+  line-height: 200px;
+  text-align: center;
+  background-color: #828282;
+  font-family: "Lato";
+  margin-bottom: 50px;
+}
+
+.imageinput {
+  font-family: "Lato";
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 25px;
+}
+
+#hideme {
+  display: none;
+}
